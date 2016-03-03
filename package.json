@@ -1,0 +1,19 @@
+{
+  "name": "NTU_NPC_Map",
+  "version": "0.0.0",
+  "description": "Interactive map for NTU students to mark NPCs in campus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "NTU",
+    "NPC",
+    "map"
+  ],
+  "author": "Viktor Lin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
