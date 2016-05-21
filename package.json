@@ -19,6 +19,7 @@
     "nodemailer": "^2.3.0",
     "nodemailer-smtp-transport": "^2.4.2",
     "fs": "^0.0.2",
-    "ya-csv": "^0.9.4"
+    "ya-csv": "^0.9.4",
+    "vue": "^1.0.24"
   }
 }
