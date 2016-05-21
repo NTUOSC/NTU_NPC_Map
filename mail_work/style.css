@@ -1,0 +1,46 @@
+.avatar {
+    float: left;
+    margin-top: 1em;
+    margin-right: 1em;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+}
+li{
+    list-style-type: none;
+}
+body  {
+    background-image: url("img.jpg");
+    background-color: #cccccc;
+    position: relative;
+	top: 100px;
+	left: 100px;
+}
+label{
+	font-size: 60px;
+	background-color: rgba(0%,0%,0%,0);
+}
+input {
+	font-size: 60px;
+	background: rgba(0%,0%,0%,0);
+	border:   rgba(0%,0%,0%,0);
+}
+h5{
+    font-size: 30px;
+    color: rgba(0% ,0%,0%,0);
+}

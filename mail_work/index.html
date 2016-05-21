@@ -3,19 +3,38 @@
 <html>
 <head>
 <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.24/vue.min.js"></script>
-<title>Input your Student ID</title>
+<title>Register</title>
 </head>
+<style type="text/css">
+@import url("style.css");
+</style>
+
 <body>
-
 <form action="http://127.0.0.1:3000/myaction" method="post">
-  <fieldset>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="studentID" placeholder="Enter your student ID" />
-            <input type="submit" value="Send message" />
-   </fieldset>
+            <input type="text" id="studentID" name="studentID" placeholder="Student ID" />
+            <input type="text" id="account" name="account" placeholder="Account" />
+            <input type="password" id="password" name="password" placeholder="Password" />
+            <input type="password" id="password_again" name="password_again" placeholder="Password Again" />
+            <input type="submit" value=""/>
 </form>
-<script>
+<br>
+<div>
+	
+	<li>		
+			<img class="avatar" src="1.jpg" alt="hym">
+	</li>
+	<li>		
+			<img class="avatar" src="2.jpg" alt="hym">
+	</li>
+	<li>		
+			<img class="avatar" src="3.jpg" alt="hym">
+	</li>
+	
+</div>
 
-</script>
+<h5>...</h5>
+
+<br>
+<p>Power By NTUOSC</p>
 </body>
 </html>
