@@ -38,6 +38,7 @@ module.exports = {
             if(ID[i]==accountid)
             {
                 console.log('exist already');
+                mail.sendEmail(accountid+'@ntu.edu.tw','NTU_NPC_MAP register','Sorry, you already have an account\n');
                 return 'exist already';
             }
 
