@@ -7,7 +7,7 @@ module.exports = {
     service: 'gmail',
     auth: {
         user: 'ntuosc@gmail.com',
-        pass: 'ntuoscntuosc' //password ask hortune
+        pass: 'ntunpcmap' //password ask hortune
     }
     });
  

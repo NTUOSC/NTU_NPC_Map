@@ -25,7 +25,7 @@ li{
     list-style-type: none;
 }
 body  {
-    background-image: url("img.jpg");
+    background-image: url("./image/img.jpg");
     background-color: #cccccc;
     position: relative;
 	top: 100px;
